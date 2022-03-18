@@ -1,0 +1,20 @@
+{
+  "name": "cypress-reporter-pm2",
+  "version": "1.0.0",
+  "description": "Module that allows you to log cypress test results into pm2 metrics",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voicenter/cypress-reporter-pm2.git"
+  },
+  "author": "Serhii Kundys <serhii.ku@voicenter.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voicenter/cypress-reporter-pm2/issues"
+  },
+  "homepage": "https://github.com/voicenter/cypress-reporter-pm2#readme",
+  "dependencies": {
+    "@pm2/io": "^5.0.0"
+  }
+}
