@@ -1,4 +1,4 @@
-# cypress-reporter-pm2
+# @voicenter-team/cypress-reporter-pm2
 
 cypress-reporter-pm2 is a cypress plugin for creating metrics after cypress tests execution.
 
@@ -6,10 +6,10 @@ cypress-reporter-pm2 is a cypress plugin for creating metrics after cypress test
 
 ```bash
 # npm
-npm install cypress-reporter-pm2 --save-dev
+npm install @voicenter-team/cypress-reporter-pm2 --save-dev
 
 # yarn
-yarn add cypress-reporter-pm2 --dev
+yarn add @voicenter-team/cypress-reporter-pm2 --dev
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ Import cypress-reporter-pm2 into cypress/plugins/index.js
 // cypress/plugins/index.js
 
 require('dotenv').config()
-const cypressReporterPm2 = require('cypress-reporter-pm2');
+const cypressReporterPm2 = require('@voicenter-team/cypress-reporter-pm2');
 
 module.exports = (on, config) => {
     config.testFiles = [...JSON.parse(process.env.SPEC_TO_RUN)]

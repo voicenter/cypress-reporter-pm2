@@ -1,6 +1,6 @@
 {
-  "name": "cypress-reporter-pm2",
-  "version": "1.0.0",
+  "name": "@voicenter-team/cypress-reporter-pm2",
+  "version": "1.0.1",
   "description": "Module that allows you to log cypress test results into pm2 metrics",
   "main": "index.js",
   "scripts": {},
