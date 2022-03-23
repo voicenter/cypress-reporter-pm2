@@ -73,10 +73,10 @@ pm2 start test.config.js
   - nameSuffix [string] - suffix for customizing metric key
   - metricNameBuilder [function] - custom function for building metric key.<br/>
     @param {string} spec [spec name] <br/>
-  - @param {object} test [test data] <br/>
+    @param {object} test [test data] <br/>
     @param {string} namespace [namespace] <br/>
     @return {string}
   - testNameParser [function] - custom function for parsing test name.<br/>
     @param {string} spec [spec name] <br/>
-  - @param {object} test [test data] <br/>
+    @param {object} test [test data] <br/>
     @return {string}
